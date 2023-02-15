@@ -32,8 +32,6 @@ let controller = (function(budgetCtrl, uiCtrl) {
     
             uiCtrl.renderListItem(newItem, input.type);
             uiCtrl.clearFields();
-    
-            generateTestData.init();
 
             updateBudget();
 
